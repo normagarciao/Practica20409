@@ -1,8 +1,87 @@
-h1 {
+/* h1 {
     border: 10px dotted gold;
     border-radius: 50px;
     background-color: aqua;
     text-align: center;
     box-shadow: 5px 5px gray;
-    font-size: 300px;
+    font-size: 100px;
+} */
+
+
+/* selector universal */
+/* *{
+    border: 1px dashed blue;
+} */
+
+/* selector por id con #*/
+/* #link1 {
+    font-size: 20px;
+} */
+
+/* #link6 {
+    background-color: tomato;
+} */
+
+/* class es remplazado con un punto(.) */
+/* selector por clase */
+/* .rojo {
+    background-color: red;
+    border: 5px groove tomato;
+    border-radius: 5px;
+} */
+
+/* .verde {
+    background-color: green;
+    border: 5px inset greenyellow;
+    border-radius: 5px;
+} */
+
+/* h1.verde{
+    font-size:  50px; ;
+} */
+/* Le pondria tamaño 50 a todas las etiquetas h1 que tengan la clase verde */
+
+/* Buscar por atributo sin importar valor */
+/* [href] {
+    border-bottom: 5px solid blue;
+} */
+
+
+/* [lang] {
+    color: aqua;
+} */
+
+/* [href="#"] {
+    background-color: lime;
+}
+
+[href*="you"]{
+    color:red;
+}
+
+[href $="mx"]{
+    background-color: green;
+}
+ */
+/* [href ^="https"]
+{
+    font-size: 25px;
+} */
+/* SI inicia con https , convierte su fuente en 25px */
+/* Para poner bordes a mi minipage (borde arriba y borde abajo */
+#mp1{
+    border-top: 3px solid tomato;
+    border-bottom: 5px solid tomato;
+}
+
+#mp1 main {
+    background-color: violet;    
+}
+
+#mp1 aside{
+    background-color: gold;
+}
+
+#mp1 footer{
+    background-color: blue;
 }
